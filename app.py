@@ -22,14 +22,14 @@ MODEL_PATH = APP_DIR / "model" / "best.pt"
 SUPPORTED_FILE_TYPES = ["jpg", "jpeg", "png", "bmp", "webp"]
 
 # secrets.toml에 GEMINI_MODEL이 없을 때 사용할 기본 모델
-DEFAULT_GEMINI_MODEL = "gemini-3.5-flash"
+DEFAULT_GEMINI_MODEL = "gemini-3.1-flash-lite"
 
 
 # ------------------------------------------------------------
 # Streamlit 페이지 설정
 # ------------------------------------------------------------
 st.set_page_config(
-    page_title="YOLO Screw 비전 검사",
+    page_title="YOLO screw 비전 검사",
     page_icon="🔍",
     layout="wide"
 )
@@ -491,7 +491,7 @@ def predict_image(
 # ------------------------------------------------------------
 # 제목
 # ------------------------------------------------------------
-st.title("YOLO 비전 검사 서비스")
+st.title("YOLO 비전 검사 서비스(screw)")
 
 st.write(
     "이미지를 업로드하면 학습된 YOLO 모델로 객체를 탐지하고, "
