@@ -1,4 +1,4 @@
 streamlit
-ultralytics
+ultralytics-opencv-headless
 pillow
 pandas
