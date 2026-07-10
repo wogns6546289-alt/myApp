@@ -2,3 +2,4 @@ streamlit
 ultralytics-opencv-headless
 pillow
 pandas
+google-genai
