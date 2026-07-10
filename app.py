@@ -22,7 +22,7 @@ MODEL_PATH = APP_DIR / "model" / "best.pt"
 SUPPORTED_FILE_TYPES = ["jpg", "jpeg", "png", "bmp", "webp"]
 
 # secrets.toml에 GEMINI_MODEL이 없을 때 사용할 기본 모델
-DEFAULT_GEMINI_MODEL = "gemini-2.5-flash"
+DEFAULT_GEMINI_MODEL = "gemini-3.5-flash"
 
 
 # ------------------------------------------------------------
